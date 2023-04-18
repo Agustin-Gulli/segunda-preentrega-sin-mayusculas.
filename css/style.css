@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ h1{
+    background-color:#29ddf5;
+    text-align: center;
+    color: black;
+ }
+ header{
+    text-align: center;
+    background-color: black;
+ }
+ header nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    color: rgb(0, 140, 255);
+    font-size: 25px;
+ }
+
+ header nav ul li a{
+    text-decoration: none;
+ }
+ 
+ body{ 
+    background-color: black;
+ }
+    p{
+        color: white;
+        text-align: center;
+    }
+
+main div img{
+   width: 70vh;
+   height: 70vh;
+   object-fit: cover;
+   margin-left: 1rem;
+   margin-top:1rem ;
+
+}
+
+
+main div video{
+   display: grid;
+   margin-left: 2rem;
+   
+}
